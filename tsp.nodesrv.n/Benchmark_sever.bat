@@ -1,0 +1,3 @@
+@rem java -Xms1024M -Xmx1048M -Xss256k -XX:PermSize=512M -Dcom.sun.management.jmxremote.port=8999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -XX:PermSize=256M -XX:MaxPermSize=256M  -Djava.ext.dirs=lib -jar tsp-namenodeserver-server-0.0.1.jar
+
+java -Xms1024M -Xmx1048M -Xss256k -XX:PermSize=512M -Dcom.sun.management.jmxremote.port=8999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -XX:PermSize=256M -XX:MaxPermSize=256M  -Djava.ext.dirs=lib cn.richinfo.tsp.nodeserver.entrance.NodeServer

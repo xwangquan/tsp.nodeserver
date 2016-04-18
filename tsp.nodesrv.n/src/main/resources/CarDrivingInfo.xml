@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="cn.richinfo.tsp.nodeserver.persistence.service.CarDrivingService">
+
+	<parameterMap
+		type="cn.richinfo.tsp.nodeserver.persistence.bean.CarDrivingBean" id="parameterMapUser">
+		<parameter property="uin" />
+		<parameter property="trip_id" />
+		<parameter property="car_driving_info" />
+		<parameter property="vtu_id" />
+		<parameter property="nodeid" />
+	</parameterMap>
+	<insert id="storeDriveData" parameterMap="parameterMapUser">
+		insert into
+		car_driving_info(uin,trip_id,car_driving_info,vtu_id,nodeid)
+		values(#{uin},#{trip_id},#{car_driving_info},#{vtu_id},#{nodeid})
+	</insert>
+</mapper>
