@@ -27,8 +27,7 @@ public abstract class MessageBaseTest extends NodeServerBaseTest {
 		head.setVersion("10".getBytes());
 		head.setMsgPack(new byte[4]);// ȱʡ
 		head.setMessageLength(57);
-		System.out.println("Head test!");
-		
+		System.out.println("Head test! helloWorld");
 	}
 
 	/**
