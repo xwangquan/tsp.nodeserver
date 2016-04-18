@@ -1,0 +1,12 @@
+2016-04-11 14:08:28 [io.netty.channel.MultithreadEventLoopGroup]-[DEBUG] -Dio.netty.eventLoopThreads: 8
+2016-04-11 14:08:30 [io.netty.channel.nio.NioEventLoop]-[DEBUG] -Dio.netty.noKeySetOptimization: false
+2016-04-11 14:08:30 [io.netty.channel.nio.NioEventLoop]-[DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-04-11 14:08:33 [io.netty.channel.DefaultChannelId]-[DEBUG] -Dio.netty.machineId: f4:8e:38:81:7c:78:00:00 (auto-detected)
+2016-04-11 14:08:33 [io.netty.channel.DefaultChannelId]-[DEBUG] -Dio.netty.processId: 5220 (auto-detected)
+2016-04-11 14:08:34 [io.netty.channel.ChannelOutboundBuffer]-[DEBUG] -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-04-11 14:16:33 [io.netty.channel.MultithreadEventLoopGroup]-[DEBUG] -Dio.netty.eventLoopThreads: 8
+2016-04-11 14:16:34 [io.netty.channel.nio.NioEventLoop]-[DEBUG] -Dio.netty.noKeySetOptimization: false
+2016-04-11 14:16:34 [io.netty.channel.nio.NioEventLoop]-[DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-04-11 14:16:37 [io.netty.channel.DefaultChannelId]-[DEBUG] -Dio.netty.machineId: f4:8e:38:81:7c:78:00:00 (auto-detected)
+2016-04-11 14:16:38 [io.netty.channel.DefaultChannelId]-[DEBUG] -Dio.netty.processId: 6744 (auto-detected)
+2016-04-11 14:16:38 [io.netty.channel.ChannelOutboundBuffer]-[DEBUG] -Dio.netty.threadLocalDirectBufferSize: 65536
